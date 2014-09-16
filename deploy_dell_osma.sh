@@ -11,7 +11,7 @@
 ## *      -h     Show help options.                                *
 ## *      -v     Print version info.                               *
 ## *                                                               *
-## *     DESTINATION LIST MUST CONTAIN FQDN's - ONE PER LINE       *
+## *       SERVER LIST MUST CONTAIN FQDN's - ONE PER LINE          *
 ## *****************************************************************
 help=$(grep "^## " "${BASH_SOURCE[0]}" | cut -c 4-)
 version=$(grep "^#- "  "${BASH_SOURCE[0]}" | cut -c 4-)
