@@ -1,12 +1,12 @@
 #!/bin/bash
 
 #- ***********************************
-#- *     install_dell_osma1 v1.0     *
+#- *     deploy_dell_osma v1.0       *
 #- * Copyright (C) 2014 John Petrini *
 #- ***********************************
 
 ## *****************************************************************
-## * Usage: ./deploy_dell_osma.sh [filetocopy] [destinationlist]  *
+## * Usage: ./deploy_dell_osma.sh [scripttodeploy.sh] [serverlist] *
 ## *                                                               *
 ## *      -h     Show help options.                                *
 ## *      -v     Print version info.                               *
