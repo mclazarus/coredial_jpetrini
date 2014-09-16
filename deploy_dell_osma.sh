@@ -32,8 +32,8 @@ done
 FILE=$1
 TARGET_PATH="/home/voiceaxis"
 MACHINES="$(<$2)"
-
+BASE=$(basename "$FILE")
 for current_machine in $MACHINES; do 
    scp -i ~/.ssh/id_dsa_va -o "StrictHostKeyChecking no" "$FILE" voiceaxis@$current_machine:$TARGET_PATH 
-   ssh -t -i ~/.ssh/id_dsa_va -o "StrictHostKeyChecking no" voiceaxis@$current_machine './install_dell_osma_centos5.sh && rm install_dell_osma_centos5.sh && exit'
+   ssh -t -i ~/.ssh/id_dsa_va -o "StrictHostKeyChecking no" voiceaxis@$current_machine "./$BASE && rm ./$BASE && exit"
 done
