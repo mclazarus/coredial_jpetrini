@@ -26,4 +26,3 @@ web.wl.app.switchconnex.net
 api-main.wl.app.switchconnex.net
 web.sb1.app.switchconnex.net
 api-main.sb1.app.switchconnex.net 
-u.coredial.com
