@@ -1,0 +1,9 @@
+## Ubuntu Bash Upgrade
+sudo apt-get update
+sudo apt-get install bash
+
+## CentOS/RHEL5+ Bash Upgrade
+sudo yum update bash
+
+## RHEL 4 Bash Upgrade
+sudo up2date bash
