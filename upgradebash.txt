@@ -1,0 +1,7 @@
+## Ubuntu Bash Upgrade
+sudo apt-get update
+sudo apt-get install bash
+
+## CentOS Bash Upgrade
+sudo yum upgrate bash
+
